@@ -89,6 +89,18 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.top-about-content {
+    margin-bottom: 4%;
+}
+
+.top-about-content img {
+    margin: 4% auto;
+}
+
+.top-about-text {
+    margin-left: 2%;
+}
+
 .banna {
     width: 100%;
 }
@@ -106,6 +118,15 @@ nav a {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4% 0;
+    /* padding: 4% 0; */
+    border-top: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -130,10 +151,32 @@ nav a {
     justify-content: center;
 }
 
+.about-boxes {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.about-boxes button {
+    width: 33%;
+    font-size: 18px;
+    background: white;
+    border-radius: 8px;
+    padding: 1.5% 3.5%;
+    border: 2px solid black;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-bottom-content {
+    margin: auto 2%;
 }
 
 .bottom-content .text-container {
